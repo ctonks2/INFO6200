@@ -1,4 +1,8 @@
-"""Python application with text-based options for user selection. It will give the user the ability to add a receipt, add line items from the receipt
+"""
+Program: Spend Analyzer Application
+Author: Chantel Tonks
+Class: INFO6200
+Purpose: Python application with text-based options for user selection. It will give the user the ability to add a receipt, add line items from the receipt
 and add a store location. The application will allow the user to list all line items, receipts and store locations. 
 
 Step 1: Display menu of options for user to select.
@@ -7,6 +11,7 @@ Step 2: If user selects to add a line item, prompt for line item details (name, 
         If user selects to add a store location, prompt for store details (name, address, city, state, zip).
         If user selects to list ask if they want to list line items, receipts or store locations and display accordingly.
 Step 3: Loop back to menu after each action until user chooses to exit. If user selects to exit, terminate the application.
+
 """
 ## Welcome message
 print("Welcome to the Spend Analyzer!")
